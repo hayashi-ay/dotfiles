@@ -11,3 +11,6 @@ setopt PROMPT_SUBST ; PS1='%F{green}%n@%m%f: %F{cyan}%~%f %F{red}$(__git_ps1 "(%
 \$ '
 
 eval "$(fnm env --use-on-cd)"
+
+export PNPM_HOME="/Users/ahayashi/.node/corepack/pnpm/6.11.0/bin"
+export PATH="$PNPM_HOME:$PATH"
