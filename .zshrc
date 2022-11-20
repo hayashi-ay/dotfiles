@@ -14,3 +14,5 @@ eval "$(fnm env --use-on-cd)"
 
 export PNPM_HOME="/Users/ahayashi/.node/corepack/pnpm/6.11.0/bin"
 export PATH="$PNPM_HOME:$PATH"
+
+export PATH="$HOME/Library/Python/3.8/bin:$PATH"
